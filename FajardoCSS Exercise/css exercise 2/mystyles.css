@@ -1,0 +1,117 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+
+
+
+
+#top-menu{
+   	width: 100%;
+	background-color: skyblue;
+	height: 30px;
+}
+
+
+
+ul{
+
+   display: flex;
+   color: blueviolet;
+   padding-top: 1vh;
+   justify-content: center;
+   list-style: none;
+   font-family: lucida sans-serif;
+
+}
+
+
+ul>li{
+	padding: 0px 5px;
+	border right: 1px solid id ;
+
+}
+
+ul>li:first-child {
+	padding: 0px 5px;
+	border left: none;
+}
+
+
+
+
+
+#page-wraper{
+	background-color: greenyellow;
+	margin: 0 auto;
+}
+
+#banner{
+    padding-top: 10px;
+	background-color: rgb(189, 223, 223);
+	height: 200px;
+	width: 100%;
+}
+
+
+.banner-text{
+	position: absolute;
+	right: 10%;
+	text-align: right;
+	top: 100px;
+
+}
+
+
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin:0 auto;
+}
+section{
+	padding: 20px 0px;
+}
+ 
+.about-me {
+	padding: 30px 20ox;
+	color: greenyellow;
+}
+.my-portfoli h3{
+
+	background-color: greenyellow;
+	padding: 10px;
+}
+
+.work-experience{
+	background-color: brown;
+	width: 100px;
+	padding: 10px;
+}
+
+.main-content{ 
+  background-color: blueviolet;
+  width: 100%;
+
+  }
+
+.footer{
+ background-color:skyblue;
+ display: inherit;
+
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+.contact-me{
+
+	background-color: brown;
+}

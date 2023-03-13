@@ -1,0 +1,183 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+
+
+
+
+
+
+#top-menu{
+   	width: 100%;
+	background-color: skyblue;
+	height: 30px;
+}
+
+
+
+ul{
+
+   display: flex;
+   color: blueviolet;
+   padding-top: 1vh;
+   justify-content: center;
+   list-style: none;
+   font-family: lucida sans-serif;
+
+}
+
+
+ul>li{
+	padding: 0px 5px;
+	border right: 1px solid id ;
+
+}
+
+ul>li:first-child {
+	padding: 0px 5px;
+	border left: none;
+}
+
+#page-wraper{
+	background-color: greenyellow;
+	margin: 0 auto;
+}
+
+#banner{
+    padding-top: 10px;
+	background-color: rgb(189, 223, 223);
+	height: 200px;
+	width: 100%;
+}
+
+
+.banner-text{
+	position: absolute;
+	right: 10%;
+	text-align: right;
+	top: 100px;
+
+}
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+.container a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+
+section {
+	min-height: 100vh;
+}
+.section{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 30px;
+	padding: 20px 18px;
+	justify-content: center;
+
+}
+ 
+.about-me {
+	padding: 30px 20ox;
+	color: greenyellow;
+}
+.my-portfoli h3{
+
+	background-color: greenyellow;
+	padding: 10px;
+}
+
+.work-experience{
+	background-color: brown;
+	width: 100px;
+	padding: 10px;
+}
+
+.main-content .container{ 
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  }
+
+
+#my-portfolio{
+	height: auto;
+}
+
+#footer{
+ display: flex;
+ justify-content: center;
+ background-color: rgb(49, 45, 45);
+ color: greenyellow;
+
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+.contact-me{
+
+	background-color: brown;
+}
+
+.flex-container{
+  display: flex;
+
+}
+
+.text-container{
+
+border: 1px solid black;
+border-radius: 10px;
+padding: 20px;
+background-color: white;
+box-shadow: 10px 10px lightgray;
+flex-basis: 252px;
+min-height: 450px;
+overflow: hidden;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+
+h3,
+h4 {
+	margin: 20px 0;
+}
+
+.portfolio{
+	background-color: white;
+	width: 150px;
+	height: 350px;
+	margin: 50px;
+	border: solid black;
+	border-radius: 10px;
+	box-shadow: 5px 10px;
+	padding: 20px;
+	text-align: left;
+	font-size: 10px;
+}
