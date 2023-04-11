@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Problems</title>
+
+    <style>
+        .container {
+        	align-content: !important;
+        	text-align: center;
+        }
+        .card {
+        	align-content: center;
+
+        }
+
+
+    </style>
+   
+</head>
+<body>
+	<div class="container">
+		<h2>Machine Problem 1</h2>
+
+		<p>Create a text input field that only accepts a number and with a check button</p>
+		<p>On click of the Check button, determine if the number is an odd or even number</p>
+		
+
+			<input id="num"type="number"/>
+			<button onclick="checkOddOrEven()">Check</button></p>
+			<p id="resPara" style="display:none;">It is an
+			<span id="res"></span>Number</p>
+
+	<div>
+
+
+
+
+
+	<div class="container">
+		<div class="card">
+				<h2>Machine Problem 2</h2>
+
+			<p>Create a text input field that accepts a single character and with a check button.</p>
+			<p> On click of the Check button, determine if the character is a vowel or consonant.</p>
+    		  <input id="char" type="text" maxlength="1"/>
+          <button onclick="checkVowel()">Check</button>
+    			<p id="response" style="display:none;">It is an
+    			<span id="res1"></span> Character</p>
+     	
+     	</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script>
+var num, temp;
+function checkOddOrEven()
+{
+  num = parseInt(document.getElementById("num").value);
+  if(num)
+  {
+    temp = document.getElementById("resPara");
+    temp.style.display = "block";
+    if(num%2==0)
+      document.getElementById("res").innerHTML = "Even";
+    else
+      document.getElementById("res").innerHTML = "Odd";
+  }
+}
+
+
+var ch;
+function checkVowel()
+{
+  ch = document.getElementById("char").value;
+  if(ch)
+  {
+    temp = document.getElementById("response");
+    temp.style.display = "block";
+    if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
+    {
+      if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+        document.getElementById("res1").innerHTML = "a Vowel";
+      else if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+        document.getElementById("res1").innerHTML = "a Vowel";
+      else
+        document.getElementById("res1").innerHTML = "a Consonant";
+    }
+    else
+      document.getElementById("res1").innerHTML = "neither Vowel nor Consonant";
+  }
+}
+
+</script>
+
+</html>
